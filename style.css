@@ -1,0 +1,92 @@
+body{
+    font-family: "Roboto Mono", monospace;
+    margin: 0px;
+}
+
+.title-bar{
+    background-color: #9c9bc0;
+    font-size: 20px;
+    padding: 30px;
+    display: flex;
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+
+.title{
+    font-size: 1.7rem;
+}
+
+.add-btn{
+    margin-top: 7px;
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 3px solid #686781;
+    background-color: white;
+}
+
+.add-btn:hover{
+    background-color: #ddddf0;
+}
+
+
+.auth-section{
+    margin-left: 75%;
+    margin-right: 10px;
+    display: flex;
+}
+
+.signup{
+    margin-right: 20px;
+}
+
+.signup-btn{
+    font-size: 0.9rem;
+    padding: 13px;
+    border: 2px solid;
+    border-radius: 3px;
+    
+}
+
+.signin-btn{
+    font-size: 0.9rem;
+    padding: 13px;
+    border: 2px solid;
+    border-radius: 3px;
+}
+
+.notes-container {
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(260px, 1fr));
+    grid-gap: 10px;
+}
+
+.note {
+    overflow: -moz-hidden-unscrollable; 
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    
+}
+
+.note-header {
+    text-align: right;
+}
+
+.delete-note-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.note-content {
+    min-height: 100px; 
+    outline: none;
+    user-select: none;
+}
+
+
+
+
